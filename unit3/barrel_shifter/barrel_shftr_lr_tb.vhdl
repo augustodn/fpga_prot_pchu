@@ -12,7 +12,7 @@ architecture testbench of barrel_shftr_lr_tb is
 
 begin
 
-    uut: entity work.barrel_shifter_lr(multi_stage_arch)
+    uut: entity work.barrel_shifter_lr_2(multi_stage_arch)
         port map (a => a, amt => amt, lr => lr);
 
     process
