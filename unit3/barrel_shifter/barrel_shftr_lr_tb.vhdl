@@ -11,7 +11,7 @@ architecture testbench of barrel_shftr_lr_tb is
     signal lr: std_logic;
 
 begin
-
+    --Instantiate the unit under test
     uut: entity work.barrel_shifter_lr_2(multi_stage_arch)
         port map (a => a, amt => amt, lr => lr);
 
